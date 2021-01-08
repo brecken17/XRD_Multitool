@@ -4,9 +4,8 @@ Tool for the analysis of XRD data at the University of Utah and CalState LA
 
 # Tab 1
 
-
 Do not use - work in progress
-
+Will be a tool used for the characterization and analysis of crystallization peaks in XRD data
 
 # Tab 2
 
