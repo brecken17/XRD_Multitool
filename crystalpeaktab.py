@@ -50,9 +50,7 @@ class tab():
         self.fileframe = tk.Frame(self.nbrframe)
         self.fileframe.grid(row=5, columnspan=5)
         # Button to decrement the number of files
-        self.minusbuttonphoto = tk.PhotoImage(file=r"Pictures/decreasefileicon.png")
-        self.minusbuttonimage = self.minusbuttonphoto.subsample(15, 15)
-        self.decrease_button = tk.Button(self.fileframe, image=self.minusbuttonimage,
+        self.decrease_button = tk.Button(self.fileframe,
                                  activebackground='grey50', command=self.decrease)
         self.decrease_button.grid(row=1, column=0)
         # Label to display the number of files
@@ -61,9 +59,7 @@ class tab():
                      font=("Arial Bold", 16))
         self.plan.grid(row=1, column=1)
         # Button to increment the number of files
-        self.plusbuttonphoto = tk.PhotoImage(file=r"Pictures/increasefileicon.png")
-        self.plusbuttonimage = self.plusbuttonphoto.subsample(15, 15)
-        self.increase_button = tk.Button(self.fileframe, image=self.plusbuttonimage,
+        self.increase_button = tk.Button(self.fileframe,
                                  activebackground='grey50', command=self.increase)
         self.increase_button.grid(row=1, column=2)
 
